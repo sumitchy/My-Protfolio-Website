@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>My Portfolio</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>MY NAME IS SUMIT CHAUDHARY</h2>
+      <p>Hello! I'm a passionate student learning to create modern web applications.</p>
+    </section>
+
+    <section id="projects">
+      <h2>My Projects</h2>
+      <div class="project">
+        <h3>Task Management Application</h3>
+        <p>A task management app with a React frontend and Node.js backend. Implemented user authentication, CRUD functionality for tasks, and real-time updates using WebSockets.
+ <a href="https://github.com" target="_blank">View Code</a></p>
+      </div>
+      <div class="project">
+        <h3>E-commerce App</h3>
+        <p>•	Created an e-commerce (buying and selling secondhand cars) mobile application using React.js, Node.js, Expo, Mongo DB.. <a href="https://github.com" target="_blank">View Code</a></p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form id="contactForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+</body>
+<script src="script.js"></script>
+</html>
